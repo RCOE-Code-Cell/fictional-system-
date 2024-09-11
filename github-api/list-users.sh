@@ -1,5 +1,23 @@
 #!/bin/bash
 
+###########################################################################################################
+# ABOUT : THIS IS THE SHELL SCRIPT TO GET ALL THE USERS WHO HAVE READ ACCESS TO THIS REPOSITORY 
+# INPUT : NEED TWO CMD ARGS, ONE IS ORGANIZATION NAME AND SECOND ONE IS REPOSITORY NAME 
+# OWNER : FAREED SAYED 
+#############################################################################################################
+
+# Helper function to display usage information and validate arguments
+function helper {
+    expected_cmd_args=2
+    if [ $# -ne $expected_cmd_args ]; then
+        echo "Please execute the script with the required command arguments: <organization_name> <repository_name>"
+        exit 1
+    fi
+}
+
+# Validate the command-line arguments at the beginning
+helper "$@"
+
 # GitHub API URL
 API_URL="https://api.github.com"
 
