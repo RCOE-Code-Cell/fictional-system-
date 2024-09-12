@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1726133385,,"wq!"
+|2,0,1726143075,,"wq!"
 :wq1
 |2,0,1726133373,,"wq1"
 :wq
@@ -31,34 +31,44 @@
 # Registers:
 
 # File marks:
-'0  1  10  ~/ansible/second-playbook/kubernetes/inventory
-|4,48,1,10,1726133385,"~/ansible/second-playbook/kubernetes/inventory"
-'1  1  2  ~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml
-|4,49,1,2,1726133317,"~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml"
-'2  7  15  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
-|4,50,7,15,1726133082,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
-'3  7  19  ~/ansible/second-playbook/setup-django-jupyter.yml
-|4,51,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
-'4  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
-|4,52,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
+'0  172  0  ~/.gitignore
+|4,48,172,0,1726143075,"~/.gitignore"
+'1  1  10  ~/ansible/second-playbook/kubernetes/inventory
+|4,49,1,10,1726133385,"~/ansible/second-playbook/kubernetes/inventory"
+'2  1  2  ~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml
+|4,50,1,2,1726133317,"~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml"
+'3  7  15  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
+|4,51,7,15,1726133082,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
+'4  7  19  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,52,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
 '5  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
 |4,53,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
-'6  32  0  ~/ansible/installing-pip-and-django.yml
-|4,54,32,0,1726131511,"~/ansible/installing-pip-and-django.yml"
-'7  1  308  ~/ansible/installing-pip-and-django.yml
-|4,55,1,308,1726131285,"~/ansible/installing-pip-and-django.yml"
-'8  20  0  ~/ansible/installing-pip-and-django.yml
-|4,56,20,0,1726131285,"~/ansible/installing-pip-and-django.yml"
-'9  4  7  ~/ansible/first-playbook.yml
-|4,57,4,7,1726130801,"~/ansible/first-playbook.yml"
+'6  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,54,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
+'7  32  0  ~/ansible/installing-pip-and-django.yml
+|4,55,32,0,1726131511,"~/ansible/installing-pip-and-django.yml"
+'8  1  308  ~/ansible/installing-pip-and-django.yml
+|4,56,1,308,1726131285,"~/ansible/installing-pip-and-django.yml"
+'9  20  0  ~/ansible/installing-pip-and-django.yml
+|4,57,20,0,1726131285,"~/ansible/installing-pip-and-django.yml"
 
 # Jumplist (newest first):
+-'  172  0  ~/.gitignore
+|4,39,172,0,1726143075,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1726142963,"~/.gitignore"
+-'  1  10  ~/ansible/second-playbook/kubernetes/inventory
+|4,39,1,10,1726133385,"~/ansible/second-playbook/kubernetes/inventory"
 -'  1  10  ~/ansible/second-playbook/kubernetes/inventory
 |4,39,1,10,1726133385,"~/ansible/second-playbook/kubernetes/inventory"
 -'  1  2  ~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml
 |4,39,1,2,1726133317,"~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml"
 -'  1  2  ~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml
 |4,39,1,2,1726133317,"~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml"
+-'  1  2  ~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml
+|4,39,1,2,1726133317,"~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml"
+-'  1  2  ~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml
+|4,39,1,2,1726133317,"~/ansible/second-playbook/kubernetes/roles/kubernetes/tasks/main.yml"
 -'  7  15  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
 |4,39,7,15,1726133082,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
 -'  7  15  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
@@ -67,6 +77,22 @@
 |4,39,7,15,1726133082,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
 -'  7  15  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
 |4,39,7,15,1726133082,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
+-'  7  15  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
+|4,39,7,15,1726133082,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
+-'  7  15  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
+|4,39,7,15,1726133082,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
+-'  7  15  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
+|4,39,7,15,1726133082,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
+-'  7  15  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
+|4,39,7,15,1726133082,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
+|4,39,1,0,1726133044,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
+|4,39,1,0,1726133044,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
+|4,39,1,0,1726133044,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
+|4,39,1,0,1726133044,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
 -'  1  0  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
 |4,39,1,0,1726133044,"~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml"
 -'  1  0  ~/ansible/second-playbook/kubernetes/setup-django-jupyter.yml
@@ -91,6 +117,22 @@
 |4,39,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
 -'  7  19  ~/ansible/second-playbook/setup-django-jupyter.yml
 |4,39,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  7  19  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  7  19  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  7  19  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  7  19  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  7  19  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  7  19  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  7  19  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  7  19  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,7,19,1726133003,"~/ansible/second-playbook/setup-django-jupyter.yml"
 -'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
 |4,39,1,0,1726132910,"~/ansible/second-playbook/setup-django-jupyter.yml"
 -'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
@@ -107,6 +149,38 @@
 |4,39,1,0,1726132910,"~/ansible/second-playbook/setup-django-jupyter.yml"
 -'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
 |4,39,1,0,1726132910,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132910,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132910,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132910,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132910,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132910,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132910,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132910,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132910,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
+-'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
+|4,39,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
 -'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
 |4,39,1,0,1726132750,"~/ansible/second-playbook/setup-django-jupyter.yml"
 -'  1  0  ~/ansible/second-playbook/setup-django-jupyter.yml
@@ -179,82 +253,15 @@
 |4,39,32,0,1726131511,"~/ansible/installing-pip-and-django.yml"
 -'  32  0  ~/ansible/installing-pip-and-django.yml
 |4,39,32,0,1726131511,"~/ansible/installing-pip-and-django.yml"
--'  32  0  ~/ansible/installing-pip-and-django.yml
-|4,39,32,0,1726131511,"~/ansible/installing-pip-and-django.yml"
--'  32  0  ~/ansible/installing-pip-and-django.yml
-|4,39,32,0,1726131511,"~/ansible/installing-pip-and-django.yml"
--'  32  0  ~/ansible/installing-pip-and-django.yml
-|4,39,32,0,1726131511,"~/ansible/installing-pip-and-django.yml"
--'  32  0  ~/ansible/installing-pip-and-django.yml
-|4,39,32,0,1726131511,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  1  308  ~/ansible/installing-pip-and-django.yml
-|4,39,1,308,1726131479,"~/ansible/installing-pip-and-django.yml"
--'  20  0  ~/ansible/installing-pip-and-django.yml
-|4,39,20,0,1726131285,"~/ansible/installing-pip-and-django.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1726143068	0
+	"	172	0
+	^	172	0
+	.	171	5
+	+	171	5
 
 > ~/ansible/second-playbook/kubernetes/inventory
 	*	1726133381	0
