@@ -1,0 +1,45 @@
+---
+- name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install python3-pip and python3-venv
+      apt:
+        name:
+          - python3-pip
+          - python3-venv
+        state: present
+
+    - name: Create a Python virtual environment
+      command: python3 -m venv /opt/venv
+      become: false  # Avoid running this command as root
+
+    - name: Install Django and Jupyter Notebook in the virtual environment
+      pip:
+        requirements:
+          - django
+          - jupyter
+        virtualenv: /opt/venv
+
+    - name: Create a new Django project named 'server'
+      command: /opt/venv/bin/django-admin startproject server /opt/server
+      args:
+        creates: /opt/server/manage.py
+
+    - name: Verify Django installation
+      command: /opt/venv/bin/django-admin --version
+      register: django_version
+      become: false
+
+    - name: Verify Jupyter Notebook installation
+      command: /opt/venv/bin/jupyter --version
+      register: jupyter_version
+      become: false
+
+    - name: Display installed Django version
+      debug:
+        msg: "Django version installed: {{ django_version.stdout }}"
+
+    - name: Display installed Jupyter Notebook version
+      debug:
+        msg: "Jupyter Notebook version installed: {{ jupyter_version.stdout }}"

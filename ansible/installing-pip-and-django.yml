@@ -1,0 +1,32 @@
+---
+- name: Install pip and Django in a virtual environment
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install python3-pip and venv
+      apt:
+        name: 
+          - python3-pip
+          - python3-venv
+        state: present
+
+    - name: Create a Python virtual environment
+      command: python3 -m venv /opt/venv
+
+    - name: Install Django in the virtual environment
+      command: /opt/venv/bin/pip install django
+
+    - name: Ensure the virtual environment's Django is installed
+      command: /opt/venv/bin/django-admin --version
+      register: django_version
+
+    - name: Display Django version
+      debug:
+        var: django_version.stdout
+
+
